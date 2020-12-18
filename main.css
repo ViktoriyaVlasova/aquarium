@@ -1,0 +1,158 @@
+@font-face {
+	font-family: Asap;
+	src: url(media/fonts/Asap/Asap-Regular.ttf);
+}
+@font-face {
+	font-family: Droid_Sans;
+	src: url(media/fonts/Droid_Sans/DroidSans.ttf);
+}
+@font-face {
+	font-family: Oleo_Script;
+	src: url(media/fonts/Oleo_Script/OleoScript-Regular.ttf);
+}
+* {
+	padding: 0;
+	margin: 0;
+}
+body {
+	min-width: 960px;
+	font-family: 'Oleo_Script';
+}
+.header-nav {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding-left: 240px;
+	padding-right: 240px;
+	background-image: url(media/header-background.png);
+	background-repeat: repeat-x;
+	color: white;
+	padding: 20px;
+}
+.header-nav p {
+	font-size: 2.5em;
+	padding-left: 240px;
+}
+nav a {
+	margin: 10px;
+	text-decoration-line: none;
+	color: white;
+}
+nav a:hover {
+	color: grey;
+}
+.social-nav {
+	display: flex;
+	flex-direction: column-reverse;
+	padding-right: 240px;
+}
+.social {
+	display: flex;
+	justify-content: flex-end;
+	padding-top: 0;
+	padding-bottom: 10px;
+}
+.social img {
+	padding-left: 5px;
+}
+.row-1 {
+	display: flex;
+	flex-wrap: nowrap;
+	margin: 0;
+	justify-content: center;
+}
+.hello {
+	display: flex;
+	color: white;
+	flex-direction: column;
+	align-items: center;
+	background-color: rgb(0,20,40);
+	padding: 20px;
+}
+.hello p {
+	padding-left: 240px;
+	padding-right: 240px;
+	text-align: center;
+}
+.descrip {
+	display: flex;
+	justify-content: center;
+	color: white;
+	background-color: rgb(0,20,40);
+	padding: 10px;
+}
+.descrip table {
+	padding: 20px;
+	background-image: url(media/wrapper1-background.png);
+}
+.table-row {
+	font-size: 1.5em;
+}
+.table-row-2 {
+	font-size: 0.7em;
+}
+td {
+	padding-right: 30px;
+}
+.news {
+	display: flex;
+	background-color: rgb(0,20,40);
+	color: white;
+	justify-content: center;
+}
+.news td {
+	width: 240px;
+}
+.date {
+	font-family: 'Droid_Sans', sans-serif;
+	color: rgb(0,169,245);
+}
+button {
+	color: white;
+	background-color: rgb(0,169,245);
+	outline: none;
+	border: none;
+	padding: 5px;
+	margin: 5px;
+	height: 30px;
+}
+.news-table td {
+	width: 340px;
+	padding: 50px;
+}
+.border-right {
+	border-right: 1px dashed lightgray;
+}
+.table-ul li{
+	display: flex;
+	align-items: center;
+	padding: 10px;
+}
+.font {
+	font-family: 'Roboto', sans-serif;
+}
+li img {
+	padding-right: 20px;
+}
+.strel {
+	width: 30px;
+	height: 30px;
+}
+.footer {
+	display: flex;
+	align-items: center;
+	background-image: url(media/header-background.png);
+	background-repeat: repeat-x;
+	font-family: 'Roboto', sans-serif;
+	height: 120px;
+	width: auto;
+	color: white;
+}
+.footer p {
+	padding-left: 240px;
+}
+.footer-ul li{
+	display: inline;
+	position: relative;
+	left: 850px;
+}
